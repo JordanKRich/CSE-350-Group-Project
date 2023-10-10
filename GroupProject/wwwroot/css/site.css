@@ -1,0 +1,56 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.card-container {
+    display: flex; /* Use flexbox to lay cards horizontally */
+    justify-content: space-around; /* Distribute space evenly between cards */
+}
+
+/* Style for each card */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    margin: 0 10px; /* Add margin to separate cards */
+}
+
+    /* Style for the image */
+    .card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    /* Style for the description */
+    .card p {
+        margin: 10px 0;
+    }
+
+    /* Style for the button */
+    .card button {
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
