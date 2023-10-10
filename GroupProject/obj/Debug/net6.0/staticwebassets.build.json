@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6IfCYcrkbj7EPsbGtrY5LIpasCfpA/2nWoiRxFjf2oI=",
+  "Hash": "FJGf0p+fmwnLsQMDdd+oSxqMzU8yZcmbx0DpXM0k7h4=",
   "Source": "GroupProject",
   "BasePath": "_content/GroupProject",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\bearjew.png"
+    },
+    {
+      "Identity": "C:\\Dev\\cse350\\GroupProject\\wwwroot\\images\\Screenshot 2023-03-20 114321.png",
+      "SourceId": "GroupProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Dev\\cse350\\GroupProject\\wwwroot\\",
+      "BasePath": "_content/GroupProject",
+      "RelativePath": "images/Screenshot 2023-03-20 114321.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Screenshot 2023-03-20 114321.png"
     },
     {
       "Identity": "C:\\Dev\\cse350\\GroupProject\\wwwroot\\js\\site.js",
