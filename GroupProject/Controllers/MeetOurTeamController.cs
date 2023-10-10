@@ -15,5 +15,10 @@ namespace GroupProject.Controllers
         {
             return View("CW");
         }
+
+        public IActionResult JR()
+        {
+            return View("JR");
+        }
     }
 }
