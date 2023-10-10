@@ -671,3 +671,5 @@ C:\Users\jorda\OneDrive\Desktop\CSE-350-Group-Project\GroupProject\obj\Debug\net
 C:\Users\jorda\OneDrive\Desktop\CSE-350-Group-Project\GroupProject\obj\Debug\net6.0\refint\GroupProject.dll
 C:\Users\jorda\OneDrive\Desktop\CSE-350-Group-Project\GroupProject\obj\Debug\net6.0\GroupProject.pdb
 C:\Users\jorda\OneDrive\Desktop\CSE-350-Group-Project\GroupProject\obj\Debug\net6.0\GroupProject.genruntimeconfig.cache
+C:\Users\jorda\OneDrive\Desktop\CSE-350-Group-Project\GroupProject\bin\Debug\net6.0\GroupProject.pdb
+C:\Users\jorda\OneDrive\Desktop\CSE-350-Group-Project\GroupProject\obj\Debug\net6.0\ref\GroupProject.dll
