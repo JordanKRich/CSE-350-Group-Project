@@ -9550,11 +9550,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cltro\\Source\\Repos\\GroupProject\\GroupProject\\GroupProject.csproj",
+      "projectUniqueName": "C:\\Users\\cltro\\Source\\Repos\\CSE-350-Group-Project02\\GroupProject\\GroupProject.csproj",
       "projectName": "GroupProject",
-      "projectPath": "C:\\Users\\cltro\\Source\\Repos\\GroupProject\\GroupProject\\GroupProject.csproj",
+      "projectPath": "C:\\Users\\cltro\\Source\\Repos\\CSE-350-Group-Project02\\GroupProject\\GroupProject.csproj",
       "packagesPath": "C:\\Users\\cltro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cltro\\Source\\Repos\\GroupProject\\GroupProject\\obj\\",
+      "outputPath": "C:\\Users\\cltro\\Source\\Repos\\CSE-350-Group-Project02\\GroupProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
