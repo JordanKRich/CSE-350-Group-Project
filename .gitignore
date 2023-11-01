@@ -1,0 +1,24 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/GroupProject/.vs/GroupProject/DesignTimeBuild/.dtbcache.v2
+/GroupProject/.vs/GroupProject/v17/.futdcache.v2
+/GroupProject/.vs/GroupProject/v17/.suo
+/GroupProject/.vs/ProjectEvaluation/groupproject.metadata.v7.bin
+/GroupProject/.vs/ProjectEvaluation/groupproject.projects.v7.bin
+/GroupProject/bin/Debug/net6.0/GroupProject.dll
+/GroupProject/bin/Debug/net6.0/GroupProject.pdb
+/GroupProject/bin/Debug/net6.0/GroupProject.staticwebassets.runtime.json
+/GroupProject/obj/Debug/net6.0/GroupProject.dll
+/GroupProject/obj/Debug/net6.0/GroupProject.genruntimeconfig.cache
+/GroupProject/obj/Debug/net6.0/GroupProject.pdb
+/GroupProject/obj/Debug/net6.0/project.razor.vs.json
+/GroupProject/obj/Debug/net6.0/ref/GroupProject.dll
+/GroupProject/obj/Debug/net6.0/refint/GroupProject.dll
+/GroupProject/obj/Debug/net6.0/staticwebassets/msbuild.GroupProject.Microsoft.AspNetCore.StaticWebAssets.props
+/GroupProject/obj/Debug/net6.0/staticwebassets.build.json
+/GroupProject/obj/Debug/net6.0/staticwebassets.development.json
+/GroupProject/obj/Debug/net6.0/staticwebassets.pack.json
+/GroupProject/obj/GroupProject.csproj.nuget.dgspec.json
+/GroupProject/obj/project.nuget.cache
