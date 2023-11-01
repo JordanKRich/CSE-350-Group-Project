@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\jorda\\gadga\\CSE-350-Group-Project\\GroupProject\\wwwroot\\images\\JR_Resume.png",
+      "PackagePath": "staticwebassets\\images\\JR_Resume.png"
+    },
+    {
       "Id": "C:\\Users\\jorda\\gadga\\CSE-350-Group-Project\\GroupProject\\wwwroot\\images\\Jordan.jpg",
       "PackagePath": "staticwebassets\\images\\Jordan.jpg"
     },

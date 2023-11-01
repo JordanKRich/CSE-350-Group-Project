@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4uX+GyH8nU4lLChzlRI2xmUOUGlU33zKl/Vw3D8PXRQ=",
+  "Hash": "abbZ+/mrxv7SpHNnFvNvnhB7TTi5FxNApT1RL84j5lk=",
   "Source": "GroupProject",
   "BasePath": "_content/GroupProject",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Jordan.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\jorda\\gadga\\CSE-350-Group-Project\\GroupProject\\wwwroot\\images\\JR_Resume.png",
+      "SourceId": "GroupProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jorda\\gadga\\CSE-350-Group-Project\\GroupProject\\wwwroot\\",
+      "BasePath": "_content/GroupProject",
+      "RelativePath": "images/JR_Resume.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\JR_Resume.png"
     },
     {
       "Identity": "C:\\Users\\jorda\\gadga\\CSE-350-Group-Project\\GroupProject\\wwwroot\\images\\resume_cw.png",
