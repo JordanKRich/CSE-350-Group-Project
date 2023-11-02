@@ -54,6 +54,27 @@ body {
         border-radius: 5px;
         cursor: pointer;
     }
+    .card_aboutmeJR {
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .card-bodyJR {
+        color: blueviolet
+    }
+    
+    .card-titleJR {
+        color: red
+    }
+    
+    .card-textJR {
+        color: greenyellow
+    }
+    
 body_cw {
     background: linear-gradient(45deg, #ffdb58, #ffabab);
     font-family: 'Arial', sans-serif;
@@ -154,106 +175,5 @@ p_cw {
     margin: 20px auto;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to bottom, #44A08D, #093637);
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
 
-.quiz-container {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    padding: 20px;
-    text-align: center;
-    width: 90%;
-    max-width: 800px;
-    margin: 10px;
-}
 
-h1 {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.columns {
-    display: flex;
-    justify-content: space-between;
-}
-
-.column {
-    width: 48%; /* Adjust the width to your preference */
-}
-
-.card {
-    border: 2px solid #007BFF;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px 0;
-    transition: border-color 0.3s;
-}
-
-    .card:hover {
-        border-color: #0056b3;
-    }
-
-.question-container {
-    margin: 10px 0;
-}
-
-.question {
-    font-size: 18px;
-    margin: 10px 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.options {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-label {
-    display: block;
-}
-
-.option {
-    cursor: pointer;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 10px;
-    transition: background 0.3s;
-}
-
-    .option.selected {
-        background: #007BFF;
-        color: #fff;
-    }
-
-.submit-button {
-    background: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 50px;
-    cursor: pointer;
-    font-size: 18px;
-    margin-top: 20px;
-    transition: background 0.3s;
-}
-
-    .submit-button:hover {
-        background: #0056b3;
-    }
-
-#result {
-    font-size: 18px;
-    margin-top: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
