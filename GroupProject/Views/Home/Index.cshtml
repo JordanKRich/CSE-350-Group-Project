@@ -1,8 +1,71 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style_main.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Meet the Team Quiz</h1>
+        <h4>After completing the quiz, please click the <strong>Team Members</strong> Tab to the <strong>left</strong> to learn more about us!</h4>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+        <div class="columns">
+            <div class="column">
+                <div class="card">
+                    <div class="question-container">
+                        <h2 class="question">Question 1: What's the name of our team leader?</h2>
+                        <div class="options">
+                            <label><input type="radio" name="q1" value="A"> A. John</label>
+                            <label><input type="radio" name="q1" value="B"> B. Sarah</label>
+                            <label><input type="radio" name="q1" value="C"> C. Michael</label>
+                        </div>
+                        <p class="feedback" id="feedback-q1"></p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="question-container">
+                        <h2 class="question">Question 2: Which team member is a developer?</h2>
+                        <div class="options">
+                            <label><input type="radio" name="q2" value="A"> A. Emily</label>
+                            <label><input type="radio" name="q2" value="B"> B. David</label>
+                            <label><input type="radio" name="q2" value="C"> C. Lisa</label>
+                        </div>
+                        <p class="feedback" id="feedback-q2"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <div class="question-container">
+                        <h2 class="question">Question 3: What's the main project our team is working on?</h2>
+                        <div class="options">
+                            <label><input type="radio" name="q3" value="A"> A. Project X</label>
+                            <label><input type="radio" name="q3" value="B"> B. Project Y</label>
+                            <label><input type="radio" name="q3" value="C"> C. Project Z</label>
+                        </div>
+                        <p class="feedback" id="feedback-q3"></p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="question-container">
+                        <h2 class="question">Question 4: Who is responsible for quality assurance?</h2>
+                        <div class="options">
+                            <label><input type="radio" name="q4" value="A"> A. Laura</label>
+                            <label><input type="radio" name="q4" value="B"> B. Mark</label>
+                            <label><input type="radio" name="q4" value="C"> C. Emma</label>
+                        </div>
+                        <p class="feedback" id="feedback-q4"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="submit-button">Submit</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="~/js/script.js"></script>
+</body>
+</html>
