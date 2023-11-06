@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4b6nkoLwJCiOnJM7b3jFm61xJY6C4ZhZJwarG543FB0=",
+  "Hash": "8TMlaTaT60fFrbRW9yT7WwQZGRYOdH64gmT4x/0Cq8s=",
   "Source": "GroupProject",
   "BasePath": "_content/GroupProject",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\bearjew.png"
+    },
+    {
+      "Identity": "C:\\Users\\cagivi01\\Source\\Repos\\CSE-350-Group-Projecttest\\GroupProject\\wwwroot\\images\\Cody_Gividen_Resume_11_6_2023.pdf",
+      "SourceId": "GroupProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cagivi01\\Source\\Repos\\CSE-350-Group-Projecttest\\GroupProject\\wwwroot\\",
+      "BasePath": "_content/GroupProject",
+      "RelativePath": "images/Cody_Gividen_Resume_11_6_2023.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Cody_Gividen_Resume_11_6_2023.pdf"
     },
     {
       "Identity": "C:\\Users\\cagivi01\\Source\\Repos\\CSE-350-Group-Projecttest\\GroupProject\\wwwroot\\images\\Screenshot 2023-03-20 114321.png",
