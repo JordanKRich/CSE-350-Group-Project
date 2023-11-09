@@ -193,13 +193,19 @@ p_cw {
     border:1px solid#ffffff;
 }
 
-.slideshow-container {
-    max-width: 400px; /* or whatever max-width you want */
+.slideshow-container { /* or whatever max-width you want */
     position: relative;
-    width: 100%;
+    width: 400px;
     margin:auto;
     border: 1px solid #ffffff;
 }
+.col-sm-8_jr {
+    width: 400px;
+    right: 150px;
+    height: 317px;
+    margin: auto;
+}
+
 .mySlides {
     display: none;
     width:400px;
@@ -222,14 +228,15 @@ p_cw {
     cursor: pointer;
     position: absolute;
     color: white;
+    font-size: xx-large;
     transition: 0.6s ease;
     user-select: none;
 }
 
   /* Position the "next button" to the right */
 .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+    right: 550px;
+    border-radius: 3px 0 0 3px #ffffff;
 }
 
   /* On hover, add a black background color with a little bit see-through */
@@ -304,18 +311,22 @@ p_cw {
     text-shadow: 0px 0px 5px rgba(15, 10, 9, 0) /* Neon glow effect */;
     border-radius: 5px;
 }
-.card-title_githubJR,
+.card-title_githubJR{
+    border-radius: 5px
+}
 .card-title_proficienciesJR {
     color: rgb(254, 254, 254); /* Bright green for titles */
     font-size: 24px;
     font-weight: bold;
-    text-shadow: 0px 0px 5px rgba(255, 230, 0, 0) /* Neon glow effect */
+    text-shadow: 0px 0px 5px rgba(255, 230, 0, 0); /* Neon glow effect */
+    border-radius: 5px;
 }
 
 .card-text_jr,
 .card-text_proficienciesJR {
     font-size: 16px;
     line-height: 1.6;
+    color:#ffffff;
 }
 
 /* Image and Button Styles */
@@ -351,44 +362,23 @@ p_cw {
     0%, 100% {
         box-shadow:
             0 0 5px #ff0000, /* Red */
-            0 0 10px #ff0000,
-            0 0 15px #ff0000,
-            0 0 20px #ff0000;
+            0 0 15px #cf2d2d,
+            0 0 30px #b44e4e,
+            0 0 34px #643939;
     }
     25% {
         box-shadow:
-            0 0 8px #ff0055, /* Mix of Red and Blue */
-            0 0 13px #ff0055,
-            0 0 18px #ff0055,
-            0 0 23px #ff0055;
-    }
-    50% {
-        box-shadow:
-            0 0 10px #0000ff, /* Blue */
-            0 0 15px #0000ff,
-            0 0 20px #0000ff,
-            0 0 25px #0000ff;
-    }
-    75% {
-        box-shadow:
-            0 0 8px #00ff55, /* Mix of Blue and Green */
-            0 0 13px #00ff55,
-            0 0 18px #00ff55,
-            0 0 23px #00ff55;
-    }
-    100% {
-        box-shadow:
-            0 0 10px #00ff00, /* Green */
-            0 0 20px #00ff00,
-            0 0 30px #00ff00,
-            0 0 40px #00ff00;
+            0 0 45px #643939, /* Mix of Red and Blue */
+            0 0 30px #b44e4e,
+            0 0 15px #cf2d2d,
+            0 0 5px rgb(255, 0, 0);
     }
 }
 
 .card-title_jr,
 .card-title_resumeJR,
 .card-title_githubJR{
-    animation: neon 10s ease-in-out infinite;
+    animation: neon 6s ease-in-out infinite;
     padding-bottom: 10px;
 }
 .card-title_proficienciesJR {
