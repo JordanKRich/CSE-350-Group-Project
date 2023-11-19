@@ -157,7 +157,7 @@ p_cw {
 
 .about-me-jr-wrapper {
     position: absolute; /* or 'fixed' if you want it to stay in place on scroll */
-    top: 0;
+    top: 60px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -183,21 +183,25 @@ p_cw {
     border-radius: 5px;
     border:1px solid#ffffff;
 }
+
+.body_jr{
+padding-top: 30px;
+top:30px;
+}
 .row_proficienciesJR {
     display: flex;
     justify-content: space-between;
+    height:420px;
     flex-wrap: wrap;
-    margin-bottom: 20px;
     background-color: #000000;
     border-radius: 5px;
     border:1px solid#ffffff;
 }
 
-.slideshow-container { /* or whatever max-width you want */
+.slideshow-container_jr { /* or whatever max-width you want */
     position: relative;
-    width: 400px;
     margin:auto;
-    border: 1px solid #ffffff;
+    bottom:42px;
 }
 .col-sm-8_jr {
     width: 400px;
@@ -209,13 +213,23 @@ p_cw {
 .mySlides {
     display: none;
     width:400px;
-    height:317px;
+    height:350px;
+    border: 1.5px solid #ffffff;
+    border-radius: 5px;
 }
-
-  /* Optional: Fade in animation */
+.mySlides.active-slide {
+    display: block;
+    height: 100%;
+}
+.slide-image {
+    width: 100%;
+    max-height: 364.33px;
+    border-radius: 5px;
+}
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes fade {
@@ -235,7 +249,7 @@ p_cw {
 
   /* Position the "next button" to the right */
 .next {
-    right: 550px;
+    right: 10px;
     border-radius: 3px 0 0 3px #ffffff;
 }
 
@@ -277,7 +291,7 @@ p_cw {
     background-color: #8d1a1a;
     border-radius: 5px;
     max-width: 400px;
-    height: 350px;
+    height: 390px;
 }
 
 .card-body_jr{
@@ -295,6 +309,7 @@ p_cw {
 .card-body_githubJR,
 .card-body_proficienciesJR {
     padding: 15px;
+    height:400px;
 }
 
 .card-title_jr{
@@ -383,4 +398,10 @@ p_cw {
 }
 .card-title_proficienciesJR {
     animation: neon 10s ease-in-out infinite;
+}
+
+nav.navbar {
+    position: relative;
+    z-index: 10;
+
 }
