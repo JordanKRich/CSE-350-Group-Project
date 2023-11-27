@@ -54,6 +54,7 @@ body {
         border-radius: 5px;
         cursor: pointer;
     }
+
 body_cw {
     background: linear-gradient(45deg, #ffdb58, #ffabab);
     font-family: 'Arial', sans-serif;
@@ -154,106 +155,253 @@ p_cw {
     margin: 20px auto;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to bottom, #44A08D, #093637);
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+.about-me-jr-wrapper {
+    position: absolute; /* or 'fixed' if you want it to stay in place on scroll */
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://miro.medium.com/v2/resize:fit:3840/1*HClbbUTEEzekU31ae3ZGnA.png') no-repeat center center fixed;
+    background-size: cover;
+    z-index: 1; /* Ensures it's above the default layer */
+    overflow-y: auto; /* Adds scroll to the wrapper if content is longer than the page */
 }
 
-.quiz-container {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+.container_jr {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
-    text-align: center;
-    width: 90%;
-    max-width: 800px;
-    margin: 10px;
+    color: #000000;
 }
 
-h1 {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.columns {
+.row_jr {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    border:1px solid#ffffff;
 }
 
-.column {
-    width: 48%; /* Adjust the width to your preference */
+.body_jr{
+padding-top: 30px;
+top:30px;
 }
-
-.card {
-    border: 2px solid #007BFF;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px 0;
-    transition: border-color 0.3s;
-}
-
-    .card:hover {
-        border-color: #0056b3;
-    }
-
-.question-container {
-    margin: 10px 0;
-}
-
-.question {
-    font-size: 18px;
-    margin: 10px 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.options {
+.row_proficienciesJR {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    height:420px;
+    flex-wrap: wrap;
+    background-color: #000000;
+    border-radius: 5px;
+    border:1px solid#ffffff;
 }
 
-label {
+.slideshow-container_jr { /* or whatever max-width you want */
+    position: relative;
+    margin:auto;
+    bottom:42px;
+}
+.col-sm-8_jr {
+    width: 400px;
+    right: 150px;
+    height: 317px;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+    width:400px;
+    height:350px;
+    border: 1.5px solid #ffffff;
+    border-radius: 5px;
+}
+.mySlides.active-slide {
     display: block;
+    height: 100%;
+}
+.slide-image {
+    width: 100%;
+    max-height: 364.33px;
+    border-radius: 5px;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
 }
 
-.option {
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+  /* Style the arrows for navigation (optional) */
+.prev, .next {
     cursor: pointer;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 10px;
-    transition: background 0.3s;
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+    transition: 0.6s ease;
+    user-select: none;
 }
 
-    .option.selected {
-        background: #007BFF;
-        color: #fff;
-    }
+  /* Position the "next button" to the right */
+.next {
+    right: 10px;
+    border-radius: 3px 0 0 3px #ffffff;
+}
 
-.submit-button {
-    background: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 50px;
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Card Styles */
+.card_jrbig {
+    border-radius: 5px; /* 5px rounded corners */
+    margin-bottom: 20px;
+}
+
+.card_aboutmeJR{
+    border: 1px solid #ffffff; /* Dark border color */
+    margin: 10px;
+    border-radius: 5px;
+}
+.card_resumeJR{
+    border: 1px solid #ffffff; /* Dark border color */
+    margin: 10px;
+    border-radius: 5px;
+    max-width: 550px;
+    max-height: 132px;
+}
+.card_githubJR{
+    border: 1px solid #ffffff; /* Dark border color */
+    margin: 10px;
+    background-color: #8d1a1a; /* Black background color */
+    color: #fffefe;
+    border-radius: 5px;
+    width: 550px;
+    height:132px;
+}
+.card_proficienciesJR {
+    border: 1px solid #ffffff; /* Dark border color */
+    margin: 10px;
+    background-color: #8d1a1a;
+    border-radius: 5px;
+    max-width: 400px;
+    height: 390px;
+}
+
+.card-body_jr{
+    background-color: #8d1a1a; /* Black background color */
+    color: #fffefe;
+    padding: 30px;
+}
+.card-body_resumeJR{
+    background-color: #8d1a1a; /* Black background color */
+    color: #fffefe;
+    padding: 8px;
+    border-radius: 5;
+    border: 1px solid #ffffff;
+}
+.card-body_githubJR,
+.card-body_proficienciesJR {
+    padding: 15px;
+    height:400px;
+}
+
+.card-title_jr{
+    color: #fffefe;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgba(15, 10, 9, 0) /* Neon glow effect */;
+    border-radius: 5px;
+}
+.card-title_resumeJR{
+    color: #fffefe;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgba(15, 10, 9, 0) /* Neon glow effect */;
+    border-radius: 5px;
+}
+.card-title_githubJR{
+    border-radius: 5px
+}
+.card-title_proficienciesJR {
+    color: rgb(254, 254, 254); /* Bright green for titles */
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgba(255, 230, 0, 0); /* Neon glow effect */
+    border-radius: 5px;
+}
+
+.card-text_jr,
+.card-text_proficienciesJR {
+    font-size: 16px;
+    line-height: 1.6;
+    color:#ffffff;
+}
+
+/* Image and Button Styles */
+.img-fluid_jr {
+    max-width: 10%;
+    height: auto;
+}
+
+.btn_jr,
+.btn_github_jr {
+    background-color: #8d1a1a; /* Sci-fi green */
+    color: #fffefe;
+    font-size: 16px;
+    transition-duration: 0.4s;
     cursor: pointer;
-    font-size: 18px;
-    margin-top: 20px;
-    transition: background 0.3s;
+    text-shadow: none;
 }
 
-    .submit-button:hover {
-        background: #0056b3;
-    }
+.btn_jr:hover,
+.btn_github_jr:hover {
+    background-color: #000000;
+    color: white;
+}
 
-#result {
-    font-size: 18px;
-    margin-top: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+/* Responsive columns */
+@media (max-width: 768px) {
+    .col-sm-4_jr {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@keyframes neon {
+    0%, 100% {
+        box-shadow:
+            0 0 5px #ff0000, /* Red */
+            0 0 15px #cf2d2d,
+            0 0 30px #b44e4e,
+            0 0 34px #643939;
+    }
+    25% {
+        box-shadow:
+            0 0 45px #643939, /* Mix of Red and Blue */
+            0 0 30px #b44e4e,
+            0 0 15px #cf2d2d,
+            0 0 5px rgb(255, 0, 0);
+    }
+}
+
+.card-title_jr,
+.card-title_resumeJR,
+.card-title_githubJR{
+    animation: neon 6s ease-in-out infinite;
+    padding-bottom: 10px;
+}
+.card-title_proficienciesJR {
+    animation: neon 10s ease-in-out infinite;
+}
+
+nav.navbar {
+    position: relative;
+    z-index: 10;
+
 }

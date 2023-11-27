@@ -16,9 +16,14 @@ namespace GroupProject.Controllers
             return View("CW");
         }
 
-        public IActionResult blahblah()
+        public IActionResult JR()
         {
-            return View("blahblah");
+            return View("JR");
+        }
+
+        public IActionResult ZB()
+        {
+            return View("ZB");
         }
 
         public IActionResult CG()
