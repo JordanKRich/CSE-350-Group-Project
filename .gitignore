@@ -49,4 +49,14 @@ GroupProject/obj/Release/net6.0/GroupProject.GlobalUsings.g.cs
 GroupProject/obj/Release/net6.0/GroupProject.RazorAssemblyInfo.cache
 GroupProject/obj/Release/net6.0/GroupProject.RazorAssemblyInfo.cs
 GroupProject/GroupProject.csproj
-
+GroupProject/bin/Debug/net6.0/GroupProject.dll
+GroupProject/bin/Debug/net6.0/GroupProject.pdb
+GroupProject/bin/Debug/net6.0/GroupProject.staticwebassets.runtime.json
+GroupProject/obj/Debug/net6.0/ref/GroupProject.dll
+GroupProject/obj/Debug/net6.0/staticwebassets/msbuild.GroupProject.Microsoft.AspNetCore.StaticWebAssets.props
+GroupProject/obj/Debug/net6.0/GroupProject.dll
+GroupProject/obj/Debug/net6.0/staticwebassets.development.json
+GroupProject/obj/Debug/net6.0/staticwebassets.pack.json
+GroupProject/obj/Debug/net6.0/refint/GroupProject.dll
+GroupProject/obj/Debug/net6.0/GroupProject.pdb
+GroupProject/obj/Debug/net6.0/staticwebassets.build.json
