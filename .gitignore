@@ -33,7 +33,7 @@ GroupProject/.vs/ProjectEvaluation/groupproject.metadata.v7.bin
 GroupProject/.vs/ProjectEvaluation/groupproject.projects.v7.bin
 GroupProject/obj/Debug/net6.0/project.razor.vs.json
 /GroupProject/.vs/GroupProject/FileContentIndex/b80afe7e-0432-43e6-b576-f085a0d2bb5c.vsidx
-.vs/slnx.sqlite
+
 GroupProject/.vs/GroupProject/FileContentIndex/9501ed01-ec2e-49ad-afcf-c486d9815044.vsidx
 GroupProject/.vs/GroupProject/FileContentIndex/64073d16-9d50-40be-b89a-dd32eb0befe2.vsidx
 GroupProject/.vs/GroupProject/FileContentIndex/fc0de7f6-6731-4ecf-b082-365a8bca2724.vsidx
@@ -61,4 +61,3 @@ GroupProject/obj/Debug/net6.0/refint/GroupProject.dll
 GroupProject/obj/Debug/net6.0/GroupProject.pdb
 GroupProject/obj/Debug/net6.0/staticwebassets.build.json
 .vs/VSWorkspaceState.json
-.vs/slnx.sqlite
