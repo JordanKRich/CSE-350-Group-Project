@@ -1,33 +1,108 @@
-﻿<div class="text-center">
-    <h1 class="display-6">This is the landing page for how we will introduce ourselves.</h1>
- 
-</div>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Introduction</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #333;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
 
+        .text-center {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            width: 100%; /* Set the width of the card container */
+        }
+
+        .card {
+            flex: 1; /* Use flex property to distribute cards evenly in a row */
+            max-width: 300px; /* Set the maximum width of each card */
+            margin: 0 10px; /* Adjust margin for spacing */
+            background-color: #4CAF50;
+            color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+            .card:hover {
+                transform: scale(1.05);
+            }
+
+            .card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+
+            .card p {
+                padding: 15px;
+                text-align: center;
+            }
+
+        .btn-primary {
+            width: 100%;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+            .btn-primary:hover {
+                background-color: #45a049;
+            }
+    </style>
+</head>
 <body>
-    <div class="card-container">
+    <div class="container text-center">
+        <h1 class="display-6">Let Us Introduce Ourselves!</h1>
+    </div>
+
+    <div class="container card-container">
         <div class="card">
-            <img src="~/images/bearjew.png" />
-            <p>Cristies opening statement.</p>
-            <button>@Html.ActionLink("View Cristie's Page", "CW", "MeetOurTeam", null, new { @class = "btn btn-primary" })</button>
+            <img src="~/images/cristie.jpg" alt="Cristie's Image">
+            <p>Enthusiastic and adaptable individual with a keen interest in technology and a commitment to continuous learning. Eager to contribute and make a positive impact.</p>
+            <button class="btn btn-primary">@Html.ActionLink("View Cristie's Page", "CW", "MeetOurTeam", null, new { @class = "text-white" })</button>
         </div>
 
         <div class="card">
-            <img src="~/images/Jordan.jpg" />
-            <p>Check out my page! Python, C++, MOJO, and SQL are my most well known languages</p>
-            <button>@Html.ActionLink("View Jordan's Page", "JR", "MeetOurTeam", null, new { @class = "btn btn-primary" })</button>
+            <img src="~/images/Jordan.jpg" alt="Jordan's Image">
+            <p>Check out my page! Python, C++, MOJO, and SQL are my most well-known languages</p>
+            <button class="btn btn-primary">@Html.ActionLink("View Jordan's Page", "JR", "MeetOurTeam", null, new { @class = "text-white" })</button>
         </div>
 
         <div class="card">
-            <img src="~/images/bearjew.png" />
+            <img src="~/images/bearjew.png" alt="Cody's Image">
             <p>Inside this page you</p>
-            <button>@Html.ActionLink("View Cody's Page", "CG", "MeetOurTeam", null, new { @class = "btn btn-primary" })</button>
+            <button class="btn btn-primary">@Html.ActionLink("View Cody's Page", "CG", "MeetOurTeam", null, new { @class = "text-white" })</button>
         </div>
 
         <div class="card">
-            <img src="~/images/bearjew.png" />
+            <img src="~/images/bearjew.png" alt="Zach's Image">
             <p>Cristies opening statement.</p>
-            <button>@Html.ActionLink("View Zach's Page", "ZB", "MeetOurTeam", null, new { @class = "btn btn-primary" })</button>
+            <button class="btn btn-primary">@Html.ActionLink("View Zach's Page", "ZB", "MeetOurTeam", null, new { @class = "text-white" })</button>
         </div>
         <!-- Add more cards as needed -->
     </div>
 </body>
+</html>
+
