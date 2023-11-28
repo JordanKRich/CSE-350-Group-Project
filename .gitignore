@@ -22,9 +22,14 @@ GroupProject/obj/Debug/net6.0/ref/GroupProject.dll
 GroupProject/obj/Debug/net6.0/refint/GroupProject.dll
 GroupProject/obj/Debug/net6.0/staticwebassets/msbuild.GroupProject.Microsoft.AspNetCore.StaticWebAssets.props
 GroupProject/obj/project.assets.json
-.vscode/launch.json
 .vscode/tasks.json
 GroupProject/obj/Debug/net6.0/project.razor.vscode.bin
 GroupProject/.vs/GroupProject/DesignTimeBuild/.dtbcache.v2
 GroupProject/.vs/GroupProject/v17/.suo
 GroupProject/obj/Debug/net6.0/project.razor.vscode.bin
+.vscode/launch.json
+GroupProject/.vs/GroupProject/v17/.futdcache.v2
+GroupProject/.vs/ProjectEvaluation/groupproject.metadata.v7.bin
+GroupProject/.vs/ProjectEvaluation/groupproject.projects.v7.bin
+GroupProject/obj/Debug/net6.0/project.razor.vs.json
+/GroupProject/.vs/GroupProject/FileContentIndex/b80afe7e-0432-43e6-b576-f085a0d2bb5c.vsidx
