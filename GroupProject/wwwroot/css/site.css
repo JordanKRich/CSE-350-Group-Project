@@ -404,4 +404,11 @@ nav.navbar {
     position: relative;
     z-index: 10;
 
+<<<<<<< Updated upstream
+=======
+
+.col-sm-4_CG {
+    border-radius: 5px;
+    border: 1px solid #fff;
+>>>>>>> Stashed changes
 }
