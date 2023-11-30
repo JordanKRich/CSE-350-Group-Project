@@ -11,31 +11,27 @@ submitButton.addEventListener('click', () => {
         let score = 0;
         if (q1Answer.value === 'B') {
             score++;
-            document.getElementById('feedback-q1').textContent = 'Correct';
+            document.getElementById('feedback-q1').textContent = 'That is RIGHT! His Favorite Experience so far has been SkyDiving!';
         } else {
-            document.getElementById('feedback-q1').textContent = 'Incorrect';
+            document.getElementById('feedback-q1').textContent = 'Nope, Looks like you will have to try again!';
         }
-        if (q2Answer.value === 'C') {
+        if (q2Answer.value === 'B') {
             score++;
-            document.getElementById('feedback-q2').textContent = 'Correct, Cristie has lived in 14 cities between VA, MA, IN, KY, TX, GA, and RI.';
+            document.getElementById('feedback-q2').textContent = 'Correct';
         } else {
-<<<<<<< Updated upstream
-            document.getElementById('feedback-q2').textContent = 'Incorrect';
-=======
-            document.getElementById('feedback-q2').textContent = 'Hmmm, that is NOT right!';
->>>>>>> Stashed changes
+            document.getElementById('feedback-q2').textContent = 'Absolutely NOT!';
         }
         if (q3Answer.value === 'B') {
             score++;
             document.getElementById('feedback-q3').textContent = 'Correct';
         } else {
-            document.getElementById('feedback-q3').textContent = 'Incorrect';
+            document.getElementById('feedback-q3').textContent = 'WRONG!!!';
         }
         if (q4Answer.value === 'B') {
             score++;
             document.getElementById('feedback-q4').textContent = 'Correct';
         } else {
-            document.getElementById('feedback-q4').textContent = 'Incorrect';
+            document.getElementById('feedback-q4').textContent = 'No, Maybe you should read our pages.';
         }
         result.innerHTML = `<h2>Your Score</h2><p>You got ${score} out of 4 questions correct!</p>`;
     } else {

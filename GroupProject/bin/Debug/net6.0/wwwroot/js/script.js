@@ -15,11 +15,11 @@ submitButton.addEventListener('click', () => {
         } else {
             document.getElementById('feedback-q1').textContent = 'Nope, Looks like you will have to try again!';
         }
-        if (q2Answer.value === 'C') {
+        if (q2Answer.value === 'B') {
             score++;
-            document.getElementById('feedback-q2').textContent = 'Correct, Cristie has lived in 14 cities between VA, MA, IN, KY, TX, GA, and RI.';
+            document.getElementById('feedback-q2').textContent = 'Correct';
         } else {
-            document.getElementById('feedback-q2').textContent = 'Hmmm, that is NOT right!';
+            document.getElementById('feedback-q2').textContent = 'Absolutely NOT!';
         }
         if (q3Answer.value === 'B') {
             score++;

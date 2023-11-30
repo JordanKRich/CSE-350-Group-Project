@@ -1,37 +1,136 @@
-﻿
-@{
-    ViewData["Title"] = "CW";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristie Washington's Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #2a1b2d;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
 
-<body_cw>
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .column_cw {
+            flex: 0 0 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #614051;
+            box-shadow: 0 0 20px rgba(255, 223, 186, 0.4);
+            border-radius: 15px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+            .column_cw h1_cw {
+                color: #ffd900; /* Gold */
+            }
+
+        .profile-image_cw {
+            width: 100%;
+            border-radius: 50%;
+            margin-top: 10px;
+            border: 5px solid #ffd900; /* Gold border */
+            box-shadow: 0 0 10px rgba(255, 223, 186, 0.4); /* Shimmery Gold */
+        }
+
+        .sparkles_cw {
+            color: #ffd900; /* Gold */
+            font-weight: bold;
+        }
+
+        .project-block_cw {
+            margin-top: 15px;
+        }
+
+        .project-link_cw {
+            display: block;
+            padding: 10px;
+            background-color: #ffd900; /* Gold */
+            color: #2a1b2d; /* Dark Purple text */
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+            .project-link_cw:hover {
+                background-color: #e0ad00; /* Darker Gold on hover */
+            }
+
+        .resume-column_cw {
+            flex: 0 0 400px; /* Set a fixed width for the resume column */
+            margin: 20px;
+            padding: 20px;
+            background-color: #614051; /* Dark Purple */
+            box-shadow: 0 0 20px rgba(255, 223, 186, 0.4); /* Shimmery Gold */
+            border-radius: 15px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .resume_cw {
+            width: 100%;
+            border: 5px solid #ffd900; /* Gold border */
+            box-shadow: 0 0 10px rgba(255, 223, 186, 0.4); /* Shimmery Gold */
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
     <div class="column_cw">
         <h1_cw>About Me</h1_cw>
-        <img class="profile-image_cw" src="~/images/rookie.png" alt="Cristie Washington">
-        <p_cw>I am a BACS student who is
-            <span class="sparkles_cw">passionate</span> 
-            about all things dogs, and family. I originally started out studying nursing at 
-             but after completing most of my degree there I discovered my love for technology and changed my major to 
-            <span class="sparkles_cw">Computer Science</span>. I grew up in Hopedale, MA,
-            but after marrying a Combat Medic in the Army, we were relocated to Louisville.
-            I spend much of my time studying web development, taking care of rescue dogs, and training for 5k's.
-            My goal is to become confident in my self and my skills.
-        </p_cw>
+        <img class="profile-image_cw" src="~/images/armyimg.png" alt="Cristie Washington">
+        
+            <p_cw>
+                I am a Bachelor of Arts Computer Science (BACS) student with a <span class="sparkles_cw">fervent</span> dedication to
+                the realms of technology, particularly in the field of Computer Science. Originating from
+                Hopedale, MA, my educational journey began with a focus on nursing. However, as I progressed
+                through my nursing studies, a profound <span class="sparkles_cw">passion</span> for technology emerged, prompting a shift
+                in my academic pursuit towards Computer Science.
+
+                Marriage to a Combat Medic in the Army brought about a relocation to Louisville, further
+                enriching my life experiences. Beyond academics, my time is dedicated to the meticulous study
+                of web development, the care of rescue dogs, and the pursuit of physical fitness
+                through 5k training.
+
+                My<span class="sparkles_cw">ultimate objective</span> is to foster self-confidence in both my personal and professional endeavors.
+            </p_cw>
     </div>
 
     <div class="column_cw">
-        <h1_cw>My Projects</h1_cw>
+        <h1_cw>My Projects & Companies I have worked with.</h1_cw>
         <div class="project-block_cw">
-            <a href="https://salonpro.me/publiclanding" class="project-link_cw">Everest Salon Pros</a>
-            
+            <a href="https://everestsalonpro.com/publiclanding" class="project-link_cw">Everest Salon Pros</a>
         </div>
-       
+            <div class="project-block_cw">
+                <a href="https://www.ascentialtech.com/" class="project-link_cw">Acential Technologies</a>
+            </div>
+            <div class="project-block_cw">
+                <a href="https://myplanetcolor.com/" class="project-link_cw">Planet Color Salon & Spa</a>
+            </div>
+            <div class="project-block_cw">
+                <a href=" https://fafardconstruction.business.site/" class="project-link_cw">Fafard Construction</a>
+            </div>
+           
         <!-- Add more project blocks as needed -->
     </div>
 
     <div class="resume-column_cw">
         <h1_cw>My Resume</h1_cw>
-        <a href="your-resume.pdf">
-            <img class="resume_cw" src="~/images/resume_cw.png" alt="Resume">
-        </a>
+            <a href="~/images/resume_cw.png" target="_blank">
+                <img class="resume_cw" src="~/images/resume_cw.png" alt="Resume">
+            </a>
     </div>
-</body_cw>
+    </div>
+</body>
+</html>
