@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\GroupProject",
-    "\\GroupProject\\Views",
-    "\\GroupProject\\Views\\Home"
+    ""
   ],
-  "SelectedNode": "\\GroupProject\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\GroupProject.sln",
   "PreviewInSolutionExplorer": false
 }
