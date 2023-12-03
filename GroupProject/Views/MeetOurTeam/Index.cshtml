@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,6 +18,7 @@
             justify-content: center;
             min-height: 100vh;
         }
+
 
         .text-center {
             margin-top: 50px;
@@ -79,6 +81,7 @@
 
     <div class="container card-container">
         <div class="card">
+
             <img src="~/images/cristie.jpg" alt="Cristie's Image">
             <p>Enthusiastic and adaptable individual with a keen interest in technology and a commitment to continuous learning. Eager to contribute and make a positive impact.</p>
             <button class="btn btn-primary">@Html.ActionLink("View Cristie's Page", "CW", "MeetOurTeam", null, new { @class = "text-white" })</button>
@@ -97,9 +100,13 @@
         </div>
 
         <div class="card">
-            <img src="~/images/bearjew.png" alt="Zach's Image">
-            <p>Cristies opening statement.</p>
-            <button class="btn btn-primary">@Html.ActionLink("View Zach's Page", "ZB", "MeetOurTeam", null, new { @class = "text-white" })</button>
+            <img src="~/images/IMG_4117.JPG" />
+            <p>ZB.</p>
+            <button>@Html.ActionLink("View Zach's Page", "ZB", "MeetOurTeam", null, new
+                    {
+                        @class = "btn btn-primary"
+                    })</button>
+
         </div>
         <!-- Add more cards as needed -->
     </div>
