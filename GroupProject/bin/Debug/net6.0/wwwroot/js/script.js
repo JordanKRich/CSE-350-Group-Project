@@ -15,21 +15,21 @@ submitButton.addEventListener('click', () => {
         } else {
             document.getElementById('feedback-q1').textContent = 'Nope, Looks like you will have to try again!';
         }
-        if (q2Answer.value === 'C') {
+        if (q2Answer.value === 'B') {
             score++;
-            document.getElementById('feedback-q2').textContent = 'Correct, Cristie has lived in 14 Cities within the states of VA,TX,MA,RI,KY,IN,GA!';
+            document.getElementById('feedback-q2').textContent = 'Correct';
         } else {
-            document.getElementById('feedback-q2').textContent = 'Hmmm, that does not seem right!';
+            document.getElementById('feedback-q2').textContent = 'Absolutely NOT!';
         }
-        if (q3Answer.value === 'A') {
+        if (q3Answer.value === 'B') {
             score++;
-            document.getElementById('feedback-q3').textContent = 'Correct, Cody uses 5e!';
+            document.getElementById('feedback-q3').textContent = 'Correct';
         } else {
             document.getElementById('feedback-q3').textContent = 'WRONG!!!';
         }
-        if (q4Answer.value === 'C') {
+        if (q4Answer.value === 'B') {
             score++;
-            document.getElementById('feedback-q4').textContent = 'Correct, These include JCTC, EKU, and UOL!!!!!';
+            document.getElementById('feedback-q4').textContent = 'Correct';
         } else {
             document.getElementById('feedback-q4').textContent = 'No, Maybe you should read our pages.';
         }
