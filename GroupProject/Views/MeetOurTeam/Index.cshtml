@@ -76,7 +76,7 @@
 </head>
 <body>
     <div class="container text-center">
-        <h1 class="display-6">Our Team Members!</h1>
+        <h1 class="display-6">Let Us Introduce Ourselves!</h1>
     </div>
 
     <div class="container card-container">
@@ -96,17 +96,13 @@
         <div class="card">
             <img src="~/images/cody.jpg" />
             <p>Check out this page! Here you will learn alittle about me and the things I have done.</p>
-            <button>@Html.ActionLink("View Cody's Page", "CG", "MeetOurTeam", null, new { @class = "btn btn-primary" })</button>
+            <button class="btn btn-primary">@Html.ActionLink("View Cody's Page", "CG", "MeetOurTeam", null, new { @class = "text-white" })</button>
         </div>
 
         <div class="card">
             <img src="~/images/IMG_4117.JPG" />
-            <p>Check out my page to learn more about me!</p>
-            <button>@Html.ActionLink("View Zach's Page", "ZB", "MeetOurTeam", null, new
-                    {
-                        @class = "btn btn-primary"
-                    })</button>
-
+            <p>ZB.</p>
+            <button class="btn btn-primary">@Html.ActionLink("View Zach's Page", "ZB", "MeetOurTeam", null, new { @class = "text-white" })</button>
         </div>
         <!-- Add more cards as needed -->
     </div>
