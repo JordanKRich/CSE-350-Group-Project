@@ -352,3 +352,7 @@ top:30px;
 
 
 
+.col-sm-4 {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
